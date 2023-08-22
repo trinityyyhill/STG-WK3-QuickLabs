@@ -24,7 +24,61 @@
         <h1 style="background-image:url(images/trainer.jpg); padding: 4em 1em; color: white; background-size: cover">Course Registration</h1> 
     </header>
     
-    <!-- insert form here -->
-    
-</body>
-</html>
+   <fieldset>
+    <ul>
+        <li>
+            <legend>Your Details</legend>
+            <label>First name</label>
+            <br>
+            <input type="text" name="First name" style = "color:red" placeholder="Type first name here" required autofocus>
+            <br>
+        </li>
+        <li>
+            <label>Surname</label>
+            <br>
+            <input type="text" name="Surname" placeholder="Type surname here" required>
+            <br>
+        </li>
+        <li>
+            <label>Position/ Role</label>
+            <br>
+            <input type="text" name="Position/Role" placeholder="Type position here" required>
+            <br>
+        </li>
+        <li>
+            <label>Email</label>
+            <br>
+            <input id="email" type=email name="Email" placeholder="you@domain.com" required>
+            <br>
+        </li>
+        <li>
+            <label>Phone No.</label>
+            <br>
+            <input type="tel" name="Phone number" placeholder="+4475000000000" required>
+            <br>
+        </li>
+            <button type="submit">Submit</button>
+            <br>
+    </ul>
+   </fieldset>
+
+
+   <fieldset>
+    <ul>
+        <li>
+        <legend>Course Details</legend>
+
+        <br>
+        <label>Select a course</label>
+        <br>
+        <select name="Course details">
+            <option value="Programming with JavaScript">Programming with JavaScript</option>
+            <option value=""></option>
+        </select>
+        <br>
+
+        <button type="submit">Submit</button>
+        <br>
+        </li>
+    </ul>
+    </fieldset>
